@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tic Tac Toe</title>
+    <meta name="description" content="Play Tic Tac Toe online. Enjoy a classic game of X and O on a responsive website that fits all devices.">
+    <meta name="keywords" content="Tic Tac Toe, X and O, game, responsive website, mobile, tablet, laptop, computer">
+    <meta name="author" content="Tic Tac Toe">
+    <link rel="canonical" href="https://tictactoe.github.io/"/>
+</head>
+<body>
+    <section id="main-container">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="images/loop.mp4" type="video/mp4">
+        </video>
+    <div class="container">
+        <div class="slide-in-bck-top">
+            <h1>Tic Tac Toe</h1>
+        </div>
+        <div class="board">
+            <div class="cell" onclick="makeMove(0)"></div>
+            <div class="cell" onclick="makeMove(1)"></div>
+            <div class="cell" onclick="makeMove(2)"></div>
+            <div class="cell" onclick="makeMove(3)"></div>
+            <div class="cell" onclick="makeMove(4)"></div>
+            <div class="cell" onclick="makeMove(5)"></div>
+            <div class="cell" onclick="makeMove(6)"></div>
+            <div class="cell" onclick="makeMove(7)"></div>
+            <div class="cell" onclick="makeMove(8)"></div>
+        </div>
+        <button onclick="resetBoard()">Reset</button>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
